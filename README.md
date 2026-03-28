@@ -12,7 +12,7 @@
 
 ## Overview
 
-`wdl-lite-py` is a proof-of-concept project that bridges Rust's performance with Python's accessibility — the same goal as [Sprocket's `sprocket-py`](https://github.com/stjude-rust-labs/sprocket) at full scale.
+`A-Mini-WDL-Parser-in-Rust-with-Python-Bindings` is a proof-of-concept project that bridges Rust's performance with Python's accessibility — the same goal as [Sprocket's `sprocket-py`](https://github.com/stjude-rust-labs/sprocket) at full scale.
 
 It demonstrates:
 
@@ -20,8 +20,6 @@ It demonstrates:
 - Running lint rules (snake_case naming, version validation) from Python
 - Clean error propagation — Rust parse errors become Python exceptions
 - Pythonic API design (properties, `__repr__`, idiomatic naming)
-
-This project was built as part of the **Google Summer of Code 2026** application for [St. Jude Children's Research Hospital — Sprocket Python Bindings](https://github.com/stjude-rust-labs/sprocket).
 
 ---
 

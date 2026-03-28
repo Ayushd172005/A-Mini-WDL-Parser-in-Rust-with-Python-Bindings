@@ -1,0 +1,28 @@
+import wdl_lite
+
+doc = wdl_lite.parse("version 1.2\n\ntask hello {\n  command { echo hi }\n}")
+print(doc.version)       # "1.2"
+print(doc.task_names)    # ["hello"]
+
+diags = wdl_lite.lint(doc)
+for d in diags:
+    print(d.severity, d.message)  # e.g. "warning  Task name should be snake_case"
+
+# Error handling
+try:
+    wdl_lite.parse("this is garbage")
+except wdl_lite.ParseError as e:
+    print(e)
+```
+
+---
+
+### Project structure
+```
+wdl-lite-py/
+├── Cargo.toml
+├── pyproject.toml
+├── src/
+│   └── lib.rs
+└── tests/
+    └── test_bindings.py

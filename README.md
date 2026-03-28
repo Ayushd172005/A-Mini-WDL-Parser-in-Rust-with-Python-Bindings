@@ -2,7 +2,8 @@
 
 > A minimal WDL (Workflow Description Language) parser and linter written in Rust, exposed to Python via [PyO3](https://pyo3.rs/).
 
-[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Ayushd172005/wdl-lite-py)
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Ayushd172005/A-Mini-WDL-Parser-in-Rust-with-Python-Bindings)
+
 [![PyO3](https://img.shields.io/badge/PyO3-0.22-blue)](https://pyo3.rs/)
 [![Rust](https://img.shields.io/badge/Rust-1.75+-orange)](https://www.rust-lang.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
@@ -33,7 +34,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 pip install maturin
 
 # Clone and build
-git clone https://github.com/Ayushd172005/wdl-lite-py.git
+git clone (https://github.com/Ayushd172005/A-Mini-WDL-Parser-in-Rust-with-Python-Bindings)
 cd wdl-lite-py
 maturin develop
 ```

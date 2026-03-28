@@ -206,17 +206,6 @@ This prototype validates the core FFI patterns (type wrapping, error propagation
 
 ---
 
-## GSoC Context
-
-This repository was created as a demonstration project for the **Google Summer of Code 2026** application to [St. Jude Children's Research Hospital](https://github.com/stjude-rust-labs), specifically for the idea:
-
-> **"Python bindings for Sprocket's WDL tooling"**
-> — [sjrl-gsoc-2026.md](https://gist.github.com/claymcleod/ee8e62831a4975cba2032d888bb52080)
-
-The proposal advice said: *"explore PyO3's documentation and build a minimal Rust-to-Python binding"* — this project is exactly that.
-
----
-
 ## License
 
 MIT — see [LICENSE](./LICENSE).

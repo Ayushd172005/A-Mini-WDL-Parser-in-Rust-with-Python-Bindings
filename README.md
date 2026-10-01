@@ -5,7 +5,7 @@
 [![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Ayushd172005/A-Mini-WDL-Parser-in-Rust-with-Python-Bindings)
 
 [![PyO3](https://img.shields.io/badge/PyO3-0.22-blue)](https://pyo3.rs/)
-[![Rust](https://img.shields.io/badge/Rust-1.75+-orange)](https://www.rust-lang.org/)
+[![Rust](https://img.shields.io/badge/Rust-1.75+-orange)](https://www.rust-lang.org/) 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
